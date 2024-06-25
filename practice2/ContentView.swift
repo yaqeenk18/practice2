@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("This is the root view!")
+                Text("This is the root view")
                     .font(.largeTitle)
                 
                 // going to comment the existing nav link, so we can create a new "second view" using a separate file
@@ -25,7 +25,7 @@ struct ContentView: View {
                  }
                  */
                 NavigationLink(destination: SecondView()) {
-                    Text("Take me to a new view please!!")
+                    Text("Take me to a new view please!")
                 } // closes Nav link
                 
                 
